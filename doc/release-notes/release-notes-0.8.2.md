@@ -87,7 +87,7 @@ Networking changes
 * Avoid initial block download stalling.
 * Remove IRC seeding support.
 * Performance tweaks.
-* Added testnet DNS seeds.
+* Added tnet DNS seeds.
 
 Wallet compatibility/rescuing
 

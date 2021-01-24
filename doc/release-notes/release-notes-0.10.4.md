@@ -127,7 +127,7 @@ git merge commit are mentioned.
 - #6953 `eae0350` Clarification of unit test build instructions
 - #6953 `90897ab` Update bluematt-key, the old one is long-since revoked
 - #6953 `a2f2fb6` build: disable -Wself-assign
-- #6953 `cf67d8b` Bugfix: Allow mining on top of old tip blocks for testnet (fixes testnet-in-a-box use case)
+- #6953 `cf67d8b` Bugfix: Allow mining on top of old tip blocks for tnet (fixes tnet-in-a-box use case)
 - #6953 `b3964e3` Drop "with minimal dependencies" from description
 - #6953 `43c2789` Split bitcoin-tx into its own package
 - #6953 `dfe0d4d` Include bitcoin-tx binary on Debian/Ubuntu

@@ -439,8 +439,8 @@ Block and transaction handling:
 
 P2P protocol and network code:
 - `f80cffa` Do not trigger a DoS ban if SCRIPT_VERIFY_NULLDUMMY fails
-- `c30329a` Add testnet DNS seed of Alex Kotenko
-- `45a4baf` Add testnet DNS seed of Andreas Schildbach
+- `c30329a` Add tnet DNS seed of Alex Kotenko
+- `45a4baf` Add tnet DNS seed of Andreas Schildbach
 - `f1920e8` Ping automatically every 2 minutes (unconditionally)
 - `806fd19` Allocate receive buffers in on the fly
 - `6ecf3ed` Display unknown commands received
@@ -545,7 +545,7 @@ GUI:
 - `b197bf3` disable tray interactions when client model set to 0
 - `1c5f0af` Add column Watch-only to transactions list
 - `21f139b` Fix tablet crash. closes #4854
-- `e84843c` Broken addresses on command line no longer trigger testnet
+- `e84843c` Broken addresses on command line no longer trigger tnet
 - `a49f11d` Change splash screen to normal window
 - `1f9be98` Disable App Nap on OSX 10.9+
 - `27c3e91` Add proxy to options overridden if necessary
@@ -622,7 +622,7 @@ Tests:
 - `263b65e` tests: run sanity checks in tests too
 
 Miscellaneous:
-- `122549f` Fix incorrect checkpoint data for testnet3
+- `122549f` Fix incorrect checkpoint data for tnet3
 - `5bd02cf` Log used config file to debug.log on startup
 - `68ba85f` Updated Debian example bitcoin.conf with config from wiki + removed some cruft and updated comments
 - `e5ee8f0` Remove -beta suffix

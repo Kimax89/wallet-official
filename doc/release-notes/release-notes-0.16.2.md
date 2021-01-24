@@ -16,8 +16,8 @@ This release includes the following features and fixes:
       Increase difficulty 100% if 5 blocks took <= 1-min 40-sec
     - If 5 blocks happened slower than 3x expected, target 100% faster next block.
       Decrease difficulty 50% if 5 blocks took >= 15-min
-- Creation of a new testnet
-- Removed Bitcoin Cash testnet seeders from clashic-seeder
+- Creation of a new tnet
+- Removed Bitcoin Cash tnet seeders from clashic-seeder
 - Increased PROTOCOL_VERSION from 70015 to 80030
 - Added mechanism in net_processing to disconnect 70015 nodes one week before hardfork
   - Upgrade is mandatory one week before hardfork due to forced disconnect of legacy nodes

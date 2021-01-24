@@ -31,7 +31,7 @@ Source codebase changes:
 - Several source code portability fixes, e.g. FreeBSD
 
 JSON-RPC interface changes:
-- addmultisigaddress enabled for mainnet (previously only enabled for testnet)
+- addmultisigaddress enabled for mainnet (previously only enabled for tnet)
 
 Network protocol changes:
 - protocol version 60001

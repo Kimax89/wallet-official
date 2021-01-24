@@ -311,7 +311,7 @@ GUI:
 Miscellaneous:
 
 - Add Linux script (contrib/qos/tc.sh) to limit outgoing bandwidth
-- Add '-regtest' mode, similar to testnet but private with instant block
+- Add '-regtest' mode, similar to tnet but private with instant block
   generation with 'setgenerate' RPC.
 - Add 'linearize.py' script to contrib, for creating bootstrap.dat
 - Add separate bitcoin-cli client

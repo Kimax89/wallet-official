@@ -171,7 +171,7 @@ The code preparations for Segregated Witness ("segwit"), as described in [BIP
 145](https://github.com/bitcoin/bips/blob/master/bip-0145.mediawiki) are
 finished and included in this release.  However, BIP 141 does not yet specify
 activation parameters on mainnet, and so this release does not support segwit
-use on mainnet.  Testnet use is supported, and after BIP 141 is updated with
+use on mainnet.  Tesbchc use is supported, and after BIP 141 is updated with
 proposed parameters, a future release of Bitcoin Core is expected that
 implements those parameters for mainnet.
 
@@ -425,7 +425,7 @@ git merge commit are mentioned.
 - #7907 `006cdf6` Optimize and Cleanup CScript::FindAndDelete (pstratem)
 - #7917 `239d419` Optimize reindex (sipa)
 - #7763 `3081fb9` Put hex-encoded version in UpdateTip (sipa)
-- #8149 `d612837` Testnet-only segregated witness (sipa)
+- #8149 `d612837` Tesbchc-only segregated witness (sipa)
 - #8305 `3730393` Improve handling of unconnecting headers (sdaftuar)
 - #8363 `fca1a41` Rename "block cost" to "block weight" (sdaftuar)
 - #8381 `f84ee3d` Make witness v0 outputs non-standard (jl2012)
@@ -447,7 +447,7 @@ git merge commit are mentioned.
 - #7856 `64e71b3` Only send one GetAddr response per connection (gmaxwell)
 - #7868 `7daa3ad` Split DNS resolving functionality out of net structures (theuni)
 - #7919 `7617682` Fix headers announcements edge case (sdaftuar)
-- #7514 `d9594bf` Fix IsInitialBlockDownload for testnet (jmacwhyte)
+- #7514 `d9594bf` Fix IsInitialBlockDownload for tnet (jmacwhyte)
 - #7959 `03cf6e8` fix race that could fail to persist a ban (kazcw)
 - #7840 `3b9a0bf` Several performance and privacy improvements to inv/mempool handling (sipa)
 - #8011 `65aecda` Don't run ThreadMessageHandler at lowered priority (kazcw)
@@ -469,7 +469,7 @@ git merge commit are mentioned.
 - #8113 `3f89a53` Rework addnode behaviour (sipa)
 - #8179 `94ab58b` Evict orphans which are included or precluded by accepted blocks (gmaxwell)
 - #8068 `e9d76a1` Compact Blocks (TheBlueMatt)
-- #8204 `0833894` Update petertodd's testnet seed (petertodd)
+- #8204 `0833894` Update petertodd's tnet seed (petertodd)
 - #8247 `5cd35d3` Mark my dnsseed as supporting filtering (sipa)
 - #8275 `042c323` Remove bad chain alert partition check (btcdrak)
 - #8271 `1bc9c80` Do not send witnesses in cmpctblock (sipa)
@@ -515,7 +515,7 @@ git merge commit are mentioned.
 - #8194 `cca1c8c` [gitian] set correct PATH for wrappers (MarcoFalke)
 - #8198 `5201614` Sync ax_pthread with upstream draft4 (fanquake)
 - #8210 `12a541e` [Qt] Bump to Qt5.6.1 (jonasschnelli)
-- #8285 `da50997` windows: Add testnet link to installer (laanwj)
+- #8285 `da50997` windows: Add tnet link to installer (laanwj)
 - #8304 `0cca2fe` [travis] Update SDK_URL (MarcoFalke)
 - #8310 `6ae20df` Require boost for bench (theuni)
 - #8315 `2e51590` Don't require sudo for Linux (theuni)

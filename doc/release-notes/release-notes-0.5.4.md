@@ -18,7 +18,7 @@ Support for validating message signatures produced with compressed public keys.
 BUG FIXES
 
 Build with thread-safe MingW libraries for Windows, fixing a dangerous memory corruption scenario when exceptions are thrown.
-Fix broken testnet mining.
+Fix broken tnet mining.
 Stop excess inventory relay during initial block download.
 When disconnecting a node, clear the received buffer so that we do not process any already received messages.
 Yet another attempt at implementing "minimize to tray" that works on all operating systems.

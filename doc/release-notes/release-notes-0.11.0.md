@@ -258,7 +258,7 @@ git merge commit are mentioned.
 - #5580 `40d65eb` Preemptively catch a few potential bugs
 - #5349 `f55c5e9` Implement test for merkle tree malleability in CPartialMerkleTree
 - #5564 `a89b837` clarify obscure uses of EvalScript()
-- #5521 `8e4578a` Reject non-final txs even in testnet/regtest
+- #5521 `8e4578a` Reject non-final txs even in tnet/regtest
 - #5707 `6af674e` Change hardcoded character constants to descriptive named constants for db keys
 - #5286 `fcf646c` Change the default maximum OP_RETURN size to 80 bytes
 - #5710 `175d86e` Add more information to errors in ReadBlockFromDisk
@@ -405,7 +405,7 @@ git merge commit are mentioned.
 - #6125 `351f73e` Clean up parsing of bool command line args
 - #5964 `b4c219b` Lightweight task scheduler
 - #6116 `30dc3c1` [OSX] rename Bitcoin-Qt.app to Bitcoin-Core.app
-- #6168 `b3024f0` contrib/linearize: Support linearization of testnet blocks
+- #6168 `b3024f0` contrib/linearize: Support linearization of tnet blocks
 - #6098 `7708fcd` Update Windows resource files (and add one for bitcoin-tx)
 - #6159 `e1412d3` Catch errors on datadir lock and pidfile delete
 - #6186 `182686c` Fix two problems in CSubnet parsing

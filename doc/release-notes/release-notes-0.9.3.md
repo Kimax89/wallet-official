@@ -63,7 +63,7 @@ Wallet:
 - Ignore (and warn about) too-long redeemScripts while loading wallet
 
 GUI:
-- fix 'opens in testnet mode when presented with a BIP-72 link with no fallback'
+- fix 'opens in tnet mode when presented with a BIP-72 link with no fallback'
 - AvailableCoins: acquire cs_main mutex
 - Fix unicode character display on MacOSX
 
